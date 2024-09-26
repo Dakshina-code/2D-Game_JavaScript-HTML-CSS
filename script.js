@@ -95,13 +95,13 @@ function jump() {
 
   if (jumpImageNumber <= 6) {
 
-    boyMarginTop = boyMarginTop - 25;
+    boyMarginTop = boyMarginTop - 35;
     document.getElementById("boy").style.marginTop = boyMarginTop + "px";
 
   }
   if (jumpImageNumber >= 7) {
 
-    boyMarginTop = boyMarginTop + 25;
+    boyMarginTop = boyMarginTop + 35;
     document.getElementById("boy").style.marginTop = boyMarginTop + "px";
   }
 
@@ -278,5 +278,8 @@ function reload() {
   location.reload();
 
 }
+
+
+
 
 
