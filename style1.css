@@ -1,0 +1,23 @@
+.background {
+    
+    height: 100vh;
+    width:100%;
+    background-image: url("background.png");
+    background-size: contain;
+   
+    position: absolute;
+    background-repeat: repeat-x;
+
+}
+
+.body {
+     margin: 0px;
+}
+
+.boy { 
+
+    height: 250px;
+    margin-top: 298px;
+    position: absolute;
+    
+}

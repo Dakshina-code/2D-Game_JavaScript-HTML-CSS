@@ -1,0 +1,32 @@
+.background {
+    
+    height: 100vh;
+    width:100%;
+    background-image: url("background.png");
+    background-size: contain;
+    overflow-x: hidden;
+    position: absolute;
+    background-repeat: repeat-x;
+
+}
+
+.body {
+     margin: 0px;
+}
+
+.boy { 
+
+    height: 250px;
+    margin-top: 299px;
+    position: absolute;
+    
+}
+
+.score {
+    position: absolute;
+    font-size: 70px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: "Aladin";
+    font-weight: " bold";
+}

@@ -1,0 +1,93 @@
+
+
+
+
+.background {
+    
+    height: 100vh;
+    width:100%;
+    background-image: url("background.png");
+    background-size: contain;
+    overflow-x: hidden;
+    position: absolute;
+    background-repeat: repeat-x;
+
+}
+
+.body {
+     margin: 0px;
+}
+
+.boy { 
+
+    height: 250px;
+    margin-top: 330px;
+    position: absolute;
+    
+}
+
+.Score {
+    position: absolute;
+    font-size: 70px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: "Aladin";
+    font-weight: " bold";
+}
+
+.box {                            
+    position: absolute;
+    height: 100px;
+    width: 35px;
+    background-image: url("flame.gif");
+    margin-top: 470px;
+    background-size: 50px 100px;
+
+
+}
+
+.end { 
+   width: 100%;
+   height: 10vh;
+   position: absolute;
+   background-image: url("background.png") ;
+   
+   display: flex;
+   flex-direction:column ;
+   align-items: center;
+   justify-content: center;
+   visibility:  df;                             
+   font-size: 90px;
+   font-weight: bold;
+   color: rgb(239,7,7);
+   font-family: " Soup of Justice";
+   
+   text-shadow: 3px 4px 4px;
+}
+
+.btn {
+   width:300px;
+   height: 50px;
+   font-weight: bold;
+   background-color: brown;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+   font-family: "Aladin";
+font-size: 35px;
+
+}
+
+.endScore{
+     color:red ;
+
+}
+
+
+
+
+
+
+
+
